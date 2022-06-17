@@ -1,0 +1,108 @@
+.container{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 0px;
+    background-color: whitesmoke;
+}
+.select-date{
+    width: inherit;
+    height: 50px;
+    line-height: 50px;
+    background-color: skyblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h2 {
+    font-size: 17px;
+    text-align: center;
+}
+.calender-view{
+    width: 350px;
+    height: 382px;
+    display: inline-block;
+}
+.select-time-view{
+    width: 350px;
+    height: 382px;
+    display: inline-block;
+    background-color: white;
+    overflow-y: scroll;
+}
+.colors{
+    width: inherit;
+    height: 50px;
+    line-height: 50px;
+    background-color: skyblue;
+}
+.colors span {
+    font-size: 16px;
+    margin-left: 10px;
+}
+td {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+.select-time-view table {
+    margin: 0 auto;
+
+}
+.select-time-view table tr td {
+    width: 100px;
+    margin: 0;
+}
+#available{
+    width: 10px ;
+    height: 10px;
+    background-color: #a442f5;
+    border: 1px solid #a442f5;
+    display: inline-block;
+    margin-left: 10px;
+}
+#sold-out{
+    width: 10px;
+    height: 10px;
+    background-color: #42f5c8;
+    border: 1px solid #42f5c8;
+    display: inline-block;
+}
+#selected{
+    width: 10px;
+    height: 10px;
+    background-color: #E27D60;
+    border: 1px solid #E27D60;
+    display: inline-block;
+}
+#btn-next, #btn-prev {
+    cursor: pointer;
+}
+.bg-available {
+    background-color: #a442f5;
+}
+.bg-sold-out{
+    background-color: #42f5c8;
+}
+.bg-selected{
+    background-color: #E27D60;
+}
+.bg-not-cmon{
+    background-color: dimgrey;
+
+}
+input {
+    width: 80px;
+}
+@media all and (max-width: 700px) {
+    .container{ 
+        width: 350px;
+    }
+    .calender-view, .select-time-view {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
